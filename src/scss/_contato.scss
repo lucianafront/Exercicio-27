@@ -1,15 +1,14 @@
 form {
-    max-width: 400px;
-    // margin: auto;
 
     label,
     input,
+    
     textarea {
         display: block;
         margin-bottom: 10px;
         font-size: 3rem;
         color: $color-secondary;
-
+        width: 100%;
     }
 
     button {
@@ -18,9 +17,7 @@ form {
         color: $font-color-primary;
         border: none;
         cursor: pointer;
-        font-size: 3rem;
-        width: 250px;
-        height: 60px;
+        font-size: 2rem;
     }
 
     button:hover {
@@ -29,13 +26,9 @@ form {
     }
 
     input {
-        width: 600px !important;
         height: 40px;
     }
 
-    textarea {
-        width: 600px !important;
-        // background-color: aqua;
-    }
+ 
 
 }

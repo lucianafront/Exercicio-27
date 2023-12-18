@@ -46,7 +46,6 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
     //considera o pedding e border como parte do cálculo total da largura e altura 
-
 }
 
 body {
@@ -72,7 +71,6 @@ h1 {
 }
 
 article {
-
     h1 {
         color: $color-secondary;
         font-size: 3rem;
@@ -111,15 +109,15 @@ img {
     display: flex;
     flex-flow: column;
     margin: 0 auto;
-    max-width: 90vw;
+    max-width: 80%;
 
-    @media(max-width: 768px){
-        max-width: 99%;
-    }
+     @media(max-width: 768px){
+         max-width: 100%;
+     }
 
-    @media(min-width: 1024px ){
+     @media(min-width: 1024px ){
 
-    }
+     }
 }
 
 header.container {
